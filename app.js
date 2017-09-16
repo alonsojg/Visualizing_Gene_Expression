@@ -101,7 +101,7 @@ var expLab = d3.select("body")
 //position scale for legends
 var positionScale = d3.scale.linear()
    .domain([minData,maxData])
-   .range([50,width*43-50])
+   .range([0,width*cols.length])
 
 //expression level legend 
 var legendA = mySVG.selectAll(".legendA")
@@ -115,7 +115,7 @@ var legendA = mySVG.selectAll(".legendA")
    })
    .attr('y', 950)
    .attr("width", function(d){
-      return (width*43/legendCols.length);
+      return (width*cols.length/legendCols.length);
    })
    .attr("height", 25)
    .style("fill", function(d){
@@ -156,17 +156,17 @@ var legendB = mySVG.selectAll('.legendB')
    });
 
 var legendAMLLabel = mySVG.append('svg:text')
-   .attr('x', positionScale(maxData) + 150)
-   .attr('y', 250+height)
+   .attr('x', positionScale(maxData) + 125 - (width/2))
+   .attr('y', 250+(height/2))
    .text('AML')
 
 var legendALLLabel = mySVG.append('svg:text')
-   .attr('x', positionScale(maxData) + 150)
-   .attr('y', 275+height)
+   .attr('x', positionScale(maxData) + 125 - (width/2))
+   .attr('y', 275+(height/2))
    .text('ALL')
 
 var legendBTitle = mySVG.append('svg:text')
-   .attr('x', positionScale(maxData) + 125)
+   .attr('x', positionScale(maxData) + 75)
    .attr('y', 225)
    .style('font-size',20)
    .style('font', 'helvetica')

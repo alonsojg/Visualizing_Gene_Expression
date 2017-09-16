@@ -11,7 +11,10 @@ with open('scaled.csv','rb') as f:
 
 cols = l[0][1:]
 cols[-1] = 'Leukemia Subtype'
+
 print cols
+print len(cols)
+
 rows = range(1,73)
 
 l = l[1:]

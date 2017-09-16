@@ -10,7 +10,7 @@ J03801_f_at : LYZ Lysozyme
 
 M92287_at : CCND3 Cyclin D3
 
-U46751_at : Phosphotyrosine independent ligand p62 for the Lck SH2 domain mRNA
+M63138_at : CTSD Cathepsin D (lysosomal aspartyl protease)
 
 M16038_at : LYN V-yes-1 Yamaguchi sarcoma viral related oncogene homolog
 
@@ -32,13 +32,11 @@ M23197_at : CD33 CD33 antigen (differentiation antigen)
 
 D49950_at : Liver mRNA for interferon-gamma inducing factor(IGIF)
 
-U10868_at : ALDH7 Aldehyde dehydrogenase 7
+M31211_s_at : MYL1 Myosin light chain (alkali)
 
 X61587_at : ARHG Ras homolog gene family; member G (rho G)
 
-D88422_at : CYSTATIN A
-
-M84371_rna1_s_at : CD19 gene
+X59417_at : PROTEASOME IOTA CHAIN
 
 M11147_at : FTL Ferritin; light polypeptide
 
@@ -47,8 +45,6 @@ X16546_at : RNS2 Ribonuclease 2 (eosinophil-derived neurotoxin; EDN)
 M62762_at : ATP6C Vacuolar H+ ATPase proton channel subunit
 
 M19045_f_at : LYZ Lysozyme
-
-M31523_at : TCF3 Transcription factor 3 (E2A immunoglobulin enhancer binding factors E12/E47)
 
 M19507_at : MPO Myeloperoxidase
 
@@ -66,23 +62,17 @@ L42379_at : Quiescin (Q6) mRNA; partial cds
 
 U05259_rna1_at : MB-1 gene
 
-M63138_at : CTSD Cathepsin D (lysosomal aspartyl protease)
-
-M31211_s_at : MYL1 Myosin light chain (alkali)
+M31523_at : TCF3 Transcription factor 3 (E2A immunoglobulin enhancer binding factors E12/E47)
 
 X95735_at : Zyxin
 
-J05243_at : SPTAN1 Spectrin; alpha; non-erythrocytic 1 (alpha-fodrin)
-
 M83652_s_at : PFC Properdin P factor; complement
 
-HG1612-HT1612_at : Macmarcks
+D14664_at : KIAA0022 gene
 
 Y07604_at : Nucleoside-diphosphate kinase
 
 Y00787_s_at : INTERLEUKIN-8 PRECURSOR
-
-X59417_at : PROTEASOME IOTA CHAIN
 
 M96326_rna1_at : Azurocidin gene
 

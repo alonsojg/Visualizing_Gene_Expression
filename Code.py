@@ -19,7 +19,7 @@ labels_df = pd.read_csv(labels, index_col = 'patient')
 test_df = pd.read_csv(test_path)
 train_df = pd.read_csv(train_path)
 
-# Dropping 'call' columns
+# Dropping 'call' rows
 
 ds = [col for col in test_df.columns if 'call' in col]
 test_df.drop(ds, axis = 1, inplace = True)
@@ -150,31 +150,31 @@ for i in d2:
 	print >> f, str(i)+' : '+str(d2[i])+'\n'
 f.close()
 
-def visualize_data(df, name):
-
-	df1 = df
-	column_labels = df.columns
-	row_labels = df.index
-	fig1 = plt.figure()
-	ax1 = fig1.add_subplot(111)
-
-	heatmap1 = ax1.pcolor(df1, cmap=plt.cm.bone)
-	fig1.colorbar(heatmap1)
-
-	ax1.set_xticks(np.arange(df1.shape[1]) + 0.5, minor=False)
-	ax1.set_yticks(np.arange(df1.shape[0]) + 0.5, minor=False)
-	ax1.invert_yaxis()
-	ax1.xaxis.tick_top()
-	ax1.set_xticklabels(column_labels)
-	ax1.set_yticklabels(row_labels)
-	plt.xticks(rotation=90)
-	heatmap1.set_clim(-1,1)
-	plt.tight_layout()
-	plt.savefig(name+".png", dpi = (300))
-	plt.show()
-
 # Uncomment lines below to llok at pyplot heatmap
 # for demostration purposes
+
+# def visualize_data(df, name):
+
+# 	df1 = df
+# 	column_labels = df.columns
+# 	row_labels = df.index
+# 	fig1 = plt.figure()
+# 	ax1 = fig1.add_subplot(111)
+
+# 	heatmap1 = ax1.pcolor(df1, cmap=plt.cm.bone)
+# 	fig1.colorbar(heatmap1)
+
+# 	ax1.set_xticks(np.arange(df1.shape[1]) + 0.5, minor=False)
+# 	ax1.set_yticks(np.arange(df1.shape[0]) + 0.5, minor=False)
+# 	ax1.invert_yaxis()
+# 	ax1.xaxis.tick_top()
+# 	ax1.set_xticklabels(column_labels)
+# 	ax1.set_yticklabels(row_labels)
+# 	plt.xticks(rotation=90)
+# 	heatmap1.set_clim(-1,1)
+# 	plt.tight_layout()
+# 	plt.savefig(name+".png", dpi = (300))
+# 	plt.show()
 
 # visualize_data(train_df[train_df.index < 36], 'first')
 # visualize_data(train_df[train_df.index >= 36], 'second')
