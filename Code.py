@@ -102,6 +102,7 @@ def features_pca(df):
 	sss = StratifiedShuffleSplit(n_splits = 9, test_size = 0.1)
 
 	a = []
+	dict_a = {}
 
 	for train_index, test_index in sss.split(features, labels): 
 		X_train, X_test = features[train_index], features[test_index]
@@ -113,7 +114,7 @@ def features_pca(df):
 	
 		important_features = s.get_support()
 
-		scores = s.scores_	
+		scores = s.scores_
 		scores = scores[important_features].tolist() 
 
 		pca_features = features_names[important_features].tolist()
@@ -121,34 +122,32 @@ def features_pca(df):
 		scores_report =\
 		{pca_features[i]:scores[i] for i in range(len(pca_features))}
 
-		if len(a) == 0:
-
-			a = set(sorted(scores_report, key = scores_report.get))
+		if len(dict_a) == 0:
+			dict_a = scores_report
 
 		else:
+			i_sect = set(dict_a.keys()) & set(scores_report.keys())
+			dict_a = {i:scores_report[i] for i in i_sect}
 
-			a = set(a).intersection(set(sorted(scores_report, key = scores_report.get)))
-	
-	a = list(a)
-
-	a = sorted(a)
+	a = sorted(dict_a, key=dict_a.get)
 
 	for i in a:
 		if i in d:
 			d2[i] = d[i]
 
-
 	a.append('cancer')
 
 	return a
 
-train_df = train_df.loc[:,features_pca(train_df)]
+ifeatures = features_pca(train_df)
+train_df = train_df.loc[:,ifeatures]
 train_df.sort_values(by='cancer', ascending = False, inplace=True)
 train_df [train_df.columns.tolist()] = preprocessing.scale(train_df.values)
 train_df.to_csv('scaled.csv')
 
 f = open('gene_description.txt','w')
-for i in d2:
+print >> f,'These are listed from least statitically significant to most of the first percentile \n'
+for i in ifeatures[:-1]:
 	print >> f, str(i)+' : '+str(d2[i])+'\n'
 f.close()
 

@@ -14,16 +14,16 @@ var colors = ['#ffcc66','#ff6666','#000000']
 //attach a SVG element to the document's body
 var mySVG = d3.select("body")
    .append("svg")
-   .attr("width", (width * cols.length)+ 250) 
+   .attr("width", (width * cols.length)+ 500) 
    .attr("height", (height * rows.length + 500))
    .style('position','absolute')
    .style('top',100)
-   .style('left',marginLeft)
+   .style('left',0)
    .style('background', 'white')
    
 var title = mySVG.append('svg:text')
    .attr('y', 50)
-   .attr('x',100)
+   .attr('x',200)
    .text('Genetic Expression Level in Separate Leukemia Subtype.')
    .attr('font-size', 30)
 
@@ -47,7 +47,7 @@ var heatmapRects = heatmapRow
    .attr('width',width-1)
    .attr('height',height-1)
    .attr('x', function(d) {
-      return (d[2] * width) + 50;
+      return (d[2] * width) + 150;
    })
    .attr('y', function(d) {
       return (d[1] * height) + 250;
@@ -63,7 +63,7 @@ var columnLabel = mySVG.selectAll(".colLabel")
    .append('svg:text')
    .attr('x', -235)
    .attr('y', function(d,i) {
-      return ((i*20)+60);
+      return ((i*20)+160);
    })
    .attr('class','label')
    .attr("transform", "rotate(-90)")
@@ -77,7 +77,7 @@ var rowLabel = mySVG.selectAll(".rowLabel")
    .data(rows)
    .enter()
    .append('svg:text')
-   .attr('x', 25)
+   .attr('x', 125)
    .attr('y', function(d,i) {
       return ((i*height-5)+250+height);
    })
@@ -95,13 +95,13 @@ var expLab = d3.select("body")
    .style('opacity',0.8)
    .style('top',10)
    .style('padding',10)
-   .style('left',40)
+   .style('left',140)
    .style('display','none');
 
 //position scale for legends
 var positionScale = d3.scale.linear()
    .domain([minData,maxData])
-   .range([0,width*cols.length])
+   .range([100,width*cols.length+100])
 
 //expression level legend 
 var legendA = mySVG.selectAll(".legendA")
@@ -127,12 +127,29 @@ var legendA = mySVG.selectAll(".legendA")
    })
    .attr("y", (height*72 + 325));
 
-var lowLegendText = mySVG.append('svg:text')
+var patientText = mySVG.append('svg:text')
+   .attr("transform", "rotate(-90)")
+   .attr('x',-(height * rows.length + 500)/2)
+   .attr('y',75)
+   .attr('font-size',25)
+   .text('Patients\' numbers')
+
+var lowGLSSLegendText = mySVG.append('svg:text')
+   .attr('x',positionScale(minData)+50)
+   .attr('y',100)
+   .text('Genes of Lowest Statistical Significance')
+
+var highGLSSLegendText = mySVG.append('svg:text')
+   .attr('x',positionScale(maxData)-175)
+   .attr('y',100)
+   .text('Genes of Highest Statistical Significance')
+
+var lowEVLegendText = mySVG.append('svg:text')
    .attr('x',positionScale(minData))
    .attr('y',(height*72 + 300))
    .text('Lowest Expression Level')
 
-var highLegendText = mySVG.append('svg:text')
+var highEVLegendText = mySVG.append('svg:text')
    .attr('x',positionScale(maxData)-50)
    .attr('y',(height*72 + 300))
    .text('Highest Expression Level')
@@ -145,7 +162,7 @@ var legendB = mySVG.selectAll('.legendB')
    .append('g')
    .attr('class','legend')
    .append('rect')
-   .attr("x",cols.length*width + 75) 
+   .attr("x",cols.length*width + 175) 
    .attr('y',function(d){
       return ((d[0] * 25) + 250)
    })
@@ -170,7 +187,33 @@ var legendBTitle = mySVG.append('svg:text')
    .attr('y', 225)
    .style('font-size',20)
    .style('font', 'helvetica')
-   .text('Leukemia Subtype')   
+   .text('Leukemia Subtype')
+
+var footnotes = mySVG.append('svg:text')
+   .attr('x',positionScale(minData))
+   .attr('y',(height*72 + 400))
+   .style('font-size',20)
+   .text('Links for better understanding:')
+      
+var footnote1 = mySVG.append('svg:text')
+   .attr('x',positionScale(minData))
+   .attr('y',(height*72 + 435))
+   .style('font-size',20)
+   .text('Gene expression profiling - https://en.wikipedia.org/wiki/Gene_expression_profiling')
+
+var footnote2 = mySVG.append('svg:text')
+   .attr('x',positionScale(minData))
+   .attr('y',(height*72 + 460))
+   .style('font-size',20)
+   .text('"What is Acute Myeloid Leukemia?" - https://www.cancer.org/cancer/acute-myeloid-leukemia/about/what-is-aml.html')
+
+var footnote3 = mySVG.append('svg:text')
+   .attr('x',positionScale(minData))
+   .attr('y',(height*72 + 485))
+   .style('font-size',20)
+   .text('"What Is Acute Lymphocytic Leukemia?" - https://www.cancer.org/cancer/acute-lymphocytic-leukemia/about/what-is-all.html')
+
+
 
 
 //heatmap mouse events

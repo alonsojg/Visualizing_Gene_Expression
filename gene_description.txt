@@ -1,80 +1,90 @@
-U46499_at : GLUTATHIONE S-TRANSFERASE; MICROSOMAL
+These are listed from least statitically significant to most of the first percentile 
 
-X17042_at : PRG1 Proteoglycan 1; secretory granule
+M84371_rna1_s_at : CD19 gene
 
-M22960_at : PPGB Protective protein for beta-galactosidase (galactosialidosis)
+J05243_at : SPTAN1 Spectrin; alpha; non-erythrocytic 1 (alpha-fodrin)
 
-X62654_rna1_at : ME491  gene extracted from H.sapiens gene for Me491/CD63 antigen
+M93056_at : LEUKOCYTE ELASTASE INHIBITOR
 
-J03801_f_at : LYZ Lysozyme
+U05259_rna1_at : MB-1 gene
 
-M92287_at : CCND3 Cyclin D3
+Y08612_at : RABAPTIN-5 protein
 
-M63138_at : CTSD Cathepsin D (lysosomal aspartyl protease)
+L41559_at : PCBD 6-pyruvoyl-tetrahydropterin synthase/dimerization cofactor of hepatocyte nuclear factor 1 alpha (TCF1)
 
-M16038_at : LYN V-yes-1 Yamaguchi sarcoma viral related oncogene homolog
+M83652_s_at : PFC Properdin P factor; complement
 
-M84526_at : DF D component of complement (adipsin)
+U46751_at : Phosphotyrosine independent ligand p62 for the Lck SH2 domain mRNA
 
-M81695_s_at : ITGAX Integrin; alpha X (antigen CD11C (p150); alpha polypeptide)
-
-X14008_rna1_f_at : Lysozyme gene (EC 3.2.1.17)
-
-X52056_at : SPI1 Spleen focus forming virus (SFFV) proviral integration oncogene spi1
-
-U82759_at : GB DEF = Homeodomain protein HoxA9 mRNA
-
-M27891_at : CST3 Cystatin C (amyloid angiopathy and cerebral hemorrhage)
-
-U50136_rna1_at : Leukotriene C4 synthase (LTC4S) gene
-
-M23197_at : CD33 CD33 antigen (differentiation antigen)
-
-D49950_at : Liver mRNA for interferon-gamma inducing factor(IGIF)
-
-X61587_at : ARHG Ras homolog gene family; member G (rho G)
+Y07604_at : Nucleoside-diphosphate kinase
 
 D88422_at : CYSTATIN A
 
+M31523_at : TCF3 Transcription factor 3 (E2A immunoglobulin enhancer binding factors E12/E47)
+
+D14664_at : KIAA0022 gene
+
+M31211_s_at : MYL1 Myosin light chain (alkali)
+
+L09717_at : LAMP2 Lysosome-associated membrane protein 2 {alternative products}
+
+M92287_at : CCND3 Cyclin D3
+
+J03801_f_at : LYZ Lysozyme
+
+M19045_f_at : LYZ Lysozyme
+
+X62654_rna1_at : ME491  gene extracted from H.sapiens gene for Me491/CD63 antigen
+
+Y00787_s_at : INTERLEUKIN-8 PRECURSOR
+
 X59417_at : PROTEASOME IOTA CHAIN
+
+X64072_s_at : SELL Leukocyte adhesion protein beta subunit
+
+X14008_rna1_f_at : Lysozyme gene (EC 3.2.1.17)
+
+M81695_s_at : ITGAX Integrin; alpha X (antigen CD11C (p150); alpha polypeptide)
 
 M11147_at : FTL Ferritin; light polypeptide
 
-X16546_at : RNS2 Ribonuclease 2 (eosinophil-derived neurotoxin; EDN)
+X61587_at : ARHG Ras homolog gene family; member G (rho G)
 
-M62762_at : ATP6C Vacuolar H+ ATPase proton channel subunit
-
-M19045_f_at : LYZ Lysozyme
+M96326_rna1_at : Azurocidin gene
 
 M19507_at : MPO Myeloperoxidase
 
 M32304_s_at : TIMP2 Tissue inhibitor of metalloproteinase 2
 
-X64072_s_at : SELL Leukocyte adhesion protein beta subunit
+X52056_at : SPI1 Spleen focus forming virus (SFFV) proviral integration oncogene spi1
 
-L09717_at : LAMP2 Lysosome-associated membrane protein 2 {alternative products}
+M22960_at : PPGB Protective protein for beta-galactosidase (galactosialidosis)
+
+M62762_at : ATP6C Vacuolar H+ ATPase proton channel subunit
+
+D49950_at : Liver mRNA for interferon-gamma inducing factor(IGIF)
 
 M55150_at : FAH Fumarylacetoacetate
 
+M63138_at : CTSD Cathepsin D (lysosomal aspartyl protease)
+
 L09209_s_at : APLP2 Amyloid beta (A4) precursor-like protein 2
 
+U46499_at : GLUTATHIONE S-TRANSFERASE; MICROSOMAL
+
+X16546_at : RNS2 Ribonuclease 2 (eosinophil-derived neurotoxin; EDN)
+
+U50136_rna1_at : Leukotriene C4 synthase (LTC4S) gene
+
+M16038_at : LYN V-yes-1 Yamaguchi sarcoma viral related oncogene homolog
+
+M84526_at : DF D component of complement (adipsin)
+
+M27891_at : CST3 Cystatin C (amyloid angiopathy and cerebral hemorrhage)
+
+M23197_at : CD33 CD33 antigen (differentiation antigen)
+
+X17042_at : PRG1 Proteoglycan 1; secretory granule
+
 X95735_at : Zyxin
-
-U05259_rna1_at : MB-1 gene
-
-M31211_s_at : MYL1 Myosin light chain (alkali)
-
-X70297_at : CHRNA7 Cholinergic receptor; nicotinic; alpha polypeptide 7
-
-M31523_at : TCF3 Transcription factor 3 (E2A immunoglobulin enhancer binding factors E12/E47)
-
-M83652_s_at : PFC Properdin P factor; complement
-
-M96326_rna1_at : Azurocidin gene
-
-Y07604_at : Nucleoside-diphosphate kinase
-
-Y00787_s_at : INTERLEUKIN-8 PRECURSOR
-
-D14664_at : KIAA0022 gene
 
