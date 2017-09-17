@@ -78,8 +78,8 @@ var rowLabel = mySVG.selectAll(".rowLabel")
    .enter()
    .append('svg:text')
    .attr('x', 25)
-   .attr('y', function(d) {
-      return ((d*height-5)+250);
+   .attr('y', function(d,i) {
+      return ((i*height-5)+250+height);
    })
    .attr('class','label')
    .style('top',100)
@@ -158,12 +158,12 @@ var legendB = mySVG.selectAll('.legendB')
 var legendAMLLabel = mySVG.append('svg:text')
    .attr('x', positionScale(maxData) + 125 - (width/2))
    .attr('y', 250+(height/2))
-   .text('AML')
+   .text('ALL')
 
 var legendALLLabel = mySVG.append('svg:text')
    .attr('x', positionScale(maxData) + 125 - (width/2))
    .attr('y', 275+(height/2))
-   .text('ALL')
+   .text('AML')
 
 var legendBTitle = mySVG.append('svg:text')
    .attr('x', positionScale(maxData) + 75)

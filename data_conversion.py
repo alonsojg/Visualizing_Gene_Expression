@@ -15,7 +15,7 @@ cols[-1] = 'Leukemia Subtype'
 print cols
 print len(cols)
 
-rows = range(1,73)
+rows = [i[0] for i in l[1:]]
 
 l = l[1:]
 l = np.delete(np.array(l, dtype = float), 0, axis = 1)

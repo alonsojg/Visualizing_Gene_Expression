@@ -1,6 +1,6 @@
 U46499_at : GLUTATHIONE S-TRANSFERASE; MICROSOMAL
 
-M27891_at : CST3 Cystatin C (amyloid angiopathy and cerebral hemorrhage)
+X17042_at : PRG1 Proteoglycan 1; secretory granule
 
 M22960_at : PPGB Protective protein for beta-galactosidase (galactosialidosis)
 
@@ -24,7 +24,7 @@ X52056_at : SPI1 Spleen focus forming virus (SFFV) proviral integration oncogene
 
 U82759_at : GB DEF = Homeodomain protein HoxA9 mRNA
 
-X17042_at : PRG1 Proteoglycan 1; secretory granule
+M27891_at : CST3 Cystatin C (amyloid angiopathy and cerebral hemorrhage)
 
 U50136_rna1_at : Leukotriene C4 synthase (LTC4S) gene
 
@@ -32,9 +32,9 @@ M23197_at : CD33 CD33 antigen (differentiation antigen)
 
 D49950_at : Liver mRNA for interferon-gamma inducing factor(IGIF)
 
-M31211_s_at : MYL1 Myosin light chain (alkali)
-
 X61587_at : ARHG Ras homolog gene family; member G (rho G)
+
+D88422_at : CYSTATIN A
 
 X59417_at : PROTEASOME IOTA CHAIN
 
@@ -58,21 +58,23 @@ M55150_at : FAH Fumarylacetoacetate
 
 L09209_s_at : APLP2 Amyloid beta (A4) precursor-like protein 2
 
-L42379_at : Quiescin (Q6) mRNA; partial cds
+X95735_at : Zyxin
 
 U05259_rna1_at : MB-1 gene
 
-M31523_at : TCF3 Transcription factor 3 (E2A immunoglobulin enhancer binding factors E12/E47)
+M31211_s_at : MYL1 Myosin light chain (alkali)
 
-X95735_at : Zyxin
+X70297_at : CHRNA7 Cholinergic receptor; nicotinic; alpha polypeptide 7
+
+M31523_at : TCF3 Transcription factor 3 (E2A immunoglobulin enhancer binding factors E12/E47)
 
 M83652_s_at : PFC Properdin P factor; complement
 
-D14664_at : KIAA0022 gene
+M96326_rna1_at : Azurocidin gene
 
 Y07604_at : Nucleoside-diphosphate kinase
 
 Y00787_s_at : INTERLEUKIN-8 PRECURSOR
 
-M96326_rna1_at : Azurocidin gene
+D14664_at : KIAA0022 gene
 

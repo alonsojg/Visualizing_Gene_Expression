@@ -90,7 +90,6 @@ train_df.fillna(value = train_df.values.mean(), inplace = True)
 
 train_df = train_df.append(test_df)
 
-
 d2 = {}
 
 def features_pca(df):
@@ -132,6 +131,8 @@ def features_pca(df):
 	
 	a = list(a)
 
+	a = sorted(a)
+
 	for i in a:
 		if i in d:
 			d2[i] = d[i]
@@ -142,6 +143,7 @@ def features_pca(df):
 	return a
 
 train_df = train_df.loc[:,features_pca(train_df)]
+train_df.sort_values(by='cancer', ascending = False, inplace=True)
 train_df [train_df.columns.tolist()] = preprocessing.scale(train_df.values)
 train_df.to_csv('scaled.csv')
 
