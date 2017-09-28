@@ -151,6 +151,11 @@ for i in ifeatures[:-1]:
 	print >> f, str(i)+' : '+str(d2[i])+'\n'
 f.close()
 
+f = open('gene_description.js','w')
+print >> f, 'var gnsAndDescripts = '+str(d2)
+f.close()
+
+
 # Uncomment lines below to llok at pyplot heatmap
 # for demostration purposes
 

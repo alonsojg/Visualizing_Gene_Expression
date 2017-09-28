@@ -2,79 +2,77 @@ These are listed from least statitically significant to most of the first percen
 
 M84371_rna1_s_at : CD19 gene
 
-J05243_at : SPTAN1 Spectrin; alpha; non-erythrocytic 1 (alpha-fodrin)
-
-M93056_at : LEUKOCYTE ELASTASE INHIBITOR
-
 U05259_rna1_at : MB-1 gene
 
-Y08612_at : RABAPTIN-5 protein
-
-L41559_at : PCBD 6-pyruvoyl-tetrahydropterin synthase/dimerization cofactor of hepatocyte nuclear factor 1 alpha (TCF1)
-
-M83652_s_at : PFC Properdin P factor; complement
-
-U46751_at : Phosphotyrosine independent ligand p62 for the Lck SH2 domain mRNA
+M65214_s_at : TCF3 Transcription factor 3 (E2A immunoglobulin enhancer binding factors E12/E47)
 
 Y07604_at : Nucleoside-diphosphate kinase
 
-D88422_at : CYSTATIN A
+M11722_at : Terminal transferase mRNA
 
-M31523_at : TCF3 Transcription factor 3 (E2A immunoglobulin enhancer binding factors E12/E47)
+J05243_at : SPTAN1 Spectrin; alpha; non-erythrocytic 1 (alpha-fodrin)
 
-D14664_at : KIAA0022 gene
+L42379_at : Quiescin (Q6) mRNA; partial cds
 
-M31211_s_at : MYL1 Myosin light chain (alkali)
+U82759_at : GB DEF = Homeodomain protein HoxA9 mRNA
 
 L09717_at : LAMP2 Lysosome-associated membrane protein 2 {alternative products}
 
-M92287_at : CCND3 Cyclin D3
-
-J03801_f_at : LYZ Lysozyme
-
-M19045_f_at : LYZ Lysozyme
-
-X62654_rna1_at : ME491  gene extracted from H.sapiens gene for Me491/CD63 antigen
+M31523_at : TCF3 Transcription factor 3 (E2A immunoglobulin enhancer binding factors E12/E47)
 
 Y00787_s_at : INTERLEUKIN-8 PRECURSOR
 
-X59417_at : PROTEASOME IOTA CHAIN
+M92287_at : CCND3 Cyclin D3
 
-X64072_s_at : SELL Leukocyte adhesion protein beta subunit
-
-X14008_rna1_f_at : Lysozyme gene (EC 3.2.1.17)
+M31211_s_at : MYL1 Myosin light chain (alkali)
 
 M81695_s_at : ITGAX Integrin; alpha X (antigen CD11C (p150); alpha polypeptide)
 
-M11147_at : FTL Ferritin; light polypeptide
+M83652_s_at : PFC Properdin P factor; complement
 
-X61587_at : ARHG Ras homolog gene family; member G (rho G)
+M19045_f_at : LYZ Lysozyme
 
 M96326_rna1_at : Azurocidin gene
 
+X59417_at : PROTEASOME IOTA CHAIN
+
 M19507_at : MPO Myeloperoxidase
-
-M32304_s_at : TIMP2 Tissue inhibitor of metalloproteinase 2
-
-X52056_at : SPI1 Spleen focus forming virus (SFFV) proviral integration oncogene spi1
-
-M22960_at : PPGB Protective protein for beta-galactosidase (galactosialidosis)
-
-M62762_at : ATP6C Vacuolar H+ ATPase proton channel subunit
 
 D49950_at : Liver mRNA for interferon-gamma inducing factor(IGIF)
 
+X62654_rna1_at : ME491  gene extracted from H.sapiens gene for Me491/CD63 antigen
+
+J03801_f_at : LYZ Lysozyme
+
+X14008_rna1_f_at : Lysozyme gene (EC 3.2.1.17)
+
+M32304_s_at : TIMP2 Tissue inhibitor of metalloproteinase 2
+
+X64072_s_at : SELL Leukocyte adhesion protein beta subunit
+
+M11147_at : FTL Ferritin; light polypeptide
+
+M62762_at : ATP6C Vacuolar H+ ATPase proton channel subunit
+
 M55150_at : FAH Fumarylacetoacetate
 
-M63138_at : CTSD Cathepsin D (lysosomal aspartyl protease)
+X52056_at : SPI1 Spleen focus forming virus (SFFV) proviral integration oncogene spi1
 
-L09209_s_at : APLP2 Amyloid beta (A4) precursor-like protein 2
+X61587_at : ARHG Ras homolog gene family; member G (rho G)
 
-U46499_at : GLUTATHIONE S-TRANSFERASE; MICROSOMAL
+U50136_rna1_at : Leukotriene C4 synthase (LTC4S) gene
 
 X16546_at : RNS2 Ribonuclease 2 (eosinophil-derived neurotoxin; EDN)
 
-U50136_rna1_at : Leukotriene C4 synthase (LTC4S) gene
+M63138_at : CTSD Cathepsin D (lysosomal aspartyl protease)
+
+U46499_at : GLUTATHIONE S-TRANSFERASE; MICROSOMAL
+
+L09209_s_at : APLP2 Amyloid beta (A4) precursor-like protein 2
+
+M22960_at : PPGB Protective protein for beta-galactosidase (galactosialidosis)
+
+X17042_at : PRG1 Proteoglycan 1; secretory granule
 
 M16038_at : LYN V-yes-1 Yamaguchi sarcoma viral related oncogene homolog
 
@@ -83,8 +81,6 @@ M84526_at : DF D component of complement (adipsin)
 M27891_at : CST3 Cystatin C (amyloid angiopathy and cerebral hemorrhage)
 
 M23197_at : CD33 CD33 antigen (differentiation antigen)
-
-X17042_at : PRG1 Proteoglycan 1; secretory granule
 
 X95735_at : Zyxin
 

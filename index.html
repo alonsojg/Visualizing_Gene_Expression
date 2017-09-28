@@ -4,7 +4,9 @@
     <meta charset='utf-8'>
     <script type="text/javascript" src='http://d3js.org/d3.v3.min.js'></script>
     <script type="text/javascript" src='data.js'></script>
-    <title>'Genetic Expression Level in Seperate Leukemia Subtype'</title>
+    <script type="text/javascript" src="gene_description.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <title>Using DNA Microarray Expression Data in Leukemia Subtype Grouping</title>
     <style>
 
       title{
@@ -12,13 +14,89 @@
       }
 
       body {
-         margin: 0px;
-         padding: 0px;
-         font: 12px Helvetica;
+        margin: 0px;
+        padding: 0px;
+        font: 12px Helvetica;
       }
+
+      h1 {
+        display: block;
+        margin-top: 2em;
+        text-align: center;
+        }
+
+      h4 {
+        display: block;
+        margin-top: 1em;
+        text-align: center;
+        }
+
+      p {
+        display: block;
+        margin-top: 1em;
+        text-align: center;
+        }
+
+      a {
+        display: block;
+        margin-top: 1em;
+        text-align: center;
+        }
+        
    </style>
   </head>
   <body>
+    <div class="container">
+      <div class="row" style="display: flex;">
+        <div class="col-md-12">
+          <h1>Using DNA Microarray Expression Data in Leukemia Subtype Grouping</h1>
+          <div class="col-md-6" style="margin: auto;">
+            <p style="text-align: center;margin-top: 2em;color: gray;">Using genomic data in finding important genetic markers to distinguish between acute myleoid leukemia (AML) and acute lymphoblastic leukemia (ALL). </p> 
+           <hr>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="display: flex;">
+        <div class="col-md-9">
+          <h4>Some background</h4>
+          <p>This is a project...</p>
+        </div>
+        <div class="col-md-3">
+          <h4>Some Links</h4>
+          <a href="https://www.cancer.org/cancer/acute-myeloid-leukemia/about/what-is-aml.html">What is AML?</a>
+          <a href="https://www.cancer.org/cancer/acute-lymphocytic-leukemia/about/what-is-all.html">What is ALL?</a>
+          <h4>Original Data Download</h4>
+          <a href="Original_data" download="Original_data/actual.csv">actual.csv</a>
+          <a href="Original_data" download="Original_data/data_set_ALL_AML_independent.csv">data_set_ALL_AML_independent.csv</a>
+          <a href="Original_data" download="Original_data/data_set_ALL_AML_train.csv">data_set_ALL_AML_train.csv</a>
+          <a href="README.txt" download="README.txt">README.txt</a>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-3">
+          <h4>Some Links</h4>
+          <a href="https://en.wikipedia.org/wiki/DNA_microarray">What is a DNA Microarray?</a>
+        </div>
+        <div class="col-md-9">
+          <h4>What is DNA Microarray Expression?</h4>
+          <p>DNA Microarray expression</p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-9">
+          <h4>Highlights on the Original paper</h4>
+        </div>
+        <div class="col-md-3">
+          <h4>Some Links</h4>
+          <a href="http://science.sciencemag.org/content/286/5439/531/tab-pdf">Original paper</a>
+        </div>
+      </div>
+      <hr>
+      <div class="row" id="chart"></div>
+      </div>
+    </div>
     <script type='text/javascript' src="app.js"></script>
   </body>
 </html>
