@@ -1,86 +1,90 @@
 These are listed from least statitically significant to most of the first percentile 
 
-M84371_rna1_s_at : CD19 gene
+J05243_at : SPTAN1 Spectrin; alpha; non-erythrocytic 1 (alpha-fodrin)
 
 U05259_rna1_at : MB-1 gene
 
-M65214_s_at : TCF3 Transcription factor 3 (E2A immunoglobulin enhancer binding factors E12/E47)
+HG1612-HT1612_at : Macmarcks
+
+X15414_at : ALDR1 Aldehyde reductase 1 (low Km aldose reductase)
+
+D88422_at : CYSTATIN A
 
 Y07604_at : Nucleoside-diphosphate kinase
 
-M11722_at : Terminal transferase mRNA
-
-J05243_at : SPTAN1 Spectrin; alpha; non-erythrocytic 1 (alpha-fodrin)
-
-L42379_at : Quiescin (Q6) mRNA; partial cds
-
-U82759_at : GB DEF = Homeodomain protein HoxA9 mRNA
-
-L09717_at : LAMP2 Lysosome-associated membrane protein 2 {alternative products}
-
-M31523_at : TCF3 Transcription factor 3 (E2A immunoglobulin enhancer binding factors E12/E47)
-
 Y00787_s_at : INTERLEUKIN-8 PRECURSOR
-
-M92287_at : CCND3 Cyclin D3
 
 M31211_s_at : MYL1 Myosin light chain (alkali)
 
-M81695_s_at : ITGAX Integrin; alpha X (antigen CD11C (p150); alpha polypeptide)
+M92287_at : CCND3 Cyclin D3
 
-M83652_s_at : PFC Properdin P factor; complement
+M31523_at : TCF3 Transcription factor 3 (E2A immunoglobulin enhancer binding factors E12/E47)
 
-M19045_f_at : LYZ Lysozyme
-
-M96326_rna1_at : Azurocidin gene
+D14664_at : KIAA0022 gene
 
 X59417_at : PROTEASOME IOTA CHAIN
 
 M19507_at : MPO Myeloperoxidase
 
-D49950_at : Liver mRNA for interferon-gamma inducing factor(IGIF)
+M93056_at : LEUKOCYTE ELASTASE INHIBITOR
+
+U82759_at : GB DEF = Homeodomain protein HoxA9 mRNA
+
+L09717_at : LAMP2 Lysosome-associated membrane protein 2 {alternative products}
 
 X62654_rna1_at : ME491  gene extracted from H.sapiens gene for Me491/CD63 antigen
 
 J03801_f_at : LYZ Lysozyme
 
-X14008_rna1_f_at : Lysozyme gene (EC 3.2.1.17)
+M19045_f_at : LYZ Lysozyme
 
-M32304_s_at : TIMP2 Tissue inhibitor of metalloproteinase 2
+L42379_at : Quiescin (Q6) mRNA; partial cds
 
 X64072_s_at : SELL Leukocyte adhesion protein beta subunit
 
+M96326_rna1_at : Azurocidin gene
+
+X14008_rna1_f_at : Lysozyme gene (EC 3.2.1.17)
+
 M11147_at : FTL Ferritin; light polypeptide
 
-M62762_at : ATP6C Vacuolar H+ ATPase proton channel subunit
+M81695_s_at : ITGAX Integrin; alpha X (antigen CD11C (p150); alpha polypeptide)
 
-M55150_at : FAH Fumarylacetoacetate
+M83652_s_at : PFC Properdin P factor; complement
 
-X52056_at : SPI1 Spleen focus forming virus (SFFV) proviral integration oncogene spi1
+D49950_at : Liver mRNA for interferon-gamma inducing factor(IGIF)
 
 X61587_at : ARHG Ras homolog gene family; member G (rho G)
 
 U50136_rna1_at : Leukotriene C4 synthase (LTC4S) gene
 
+X52056_at : SPI1 Spleen focus forming virus (SFFV) proviral integration oncogene spi1
+
+M32304_s_at : TIMP2 Tissue inhibitor of metalloproteinase 2
+
 X16546_at : RNS2 Ribonuclease 2 (eosinophil-derived neurotoxin; EDN)
-
-M63138_at : CTSD Cathepsin D (lysosomal aspartyl protease)
-
-U46499_at : GLUTATHIONE S-TRANSFERASE; MICROSOMAL
-
-L09209_s_at : APLP2 Amyloid beta (A4) precursor-like protein 2
-
-M22960_at : PPGB Protective protein for beta-galactosidase (galactosialidosis)
-
-X17042_at : PRG1 Proteoglycan 1; secretory granule
-
-M16038_at : LYN V-yes-1 Yamaguchi sarcoma viral related oncogene homolog
-
-M84526_at : DF D component of complement (adipsin)
 
 M27891_at : CST3 Cystatin C (amyloid angiopathy and cerebral hemorrhage)
 
+M62762_at : ATP6C Vacuolar H+ ATPase proton channel subunit
+
+U46499_at : GLUTATHIONE S-TRANSFERASE; MICROSOMAL
+
+M22960_at : PPGB Protective protein for beta-galactosidase (galactosialidosis)
+
+M63138_at : CTSD Cathepsin D (lysosomal aspartyl protease)
+
+M84526_at : DF D component of complement (adipsin)
+
+M16038_at : LYN V-yes-1 Yamaguchi sarcoma viral related oncogene homolog
+
+L09209_s_at : APLP2 Amyloid beta (A4) precursor-like protein 2
+
+M55150_at : FAH Fumarylacetoacetate
+
 M23197_at : CD33 CD33 antigen (differentiation antigen)
+
+X17042_at : PRG1 Proteoglycan 1; secretory granule
 
 X95735_at : Zyxin
 

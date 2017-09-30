@@ -29,12 +29,13 @@
         display: block;
         margin-top: 1em;
         text-align: center;
+        margin-bottom: 1em;
         }
 
       p {
         display: block;
         margin-top: 1em;
-        text-align: center;
+        text-align: left;
         }
 
       a {
@@ -59,17 +60,24 @@
       <div class="row" style="display: flex;">
         <div class="col-md-9">
           <h4>Some background</h4>
-          <p>This is a project...</p>
+          <p style="margin-top: 50px">
+            This is a project Intended to fulfill the final project, in Data Visualization, required by Udacity's Data Analysis nanodegree course. In this project I worked to better illustrate the differences among some of the most important genes taken into consideration to better contrast two similar subtypes of Leukemia: Acute Myleoid Leukemia (AML) and Acute Lymphoblastic Leukemia (ALL); The genetic samples were sequenced and extracted from 72 patients. Originally, each patiens' samples included a series of 7129 genes to be researched. 
+          </p>
+          <p>
+            These were all submitted to an anova test to account for each gene's variation in differentiating these two Leukemia Subtypes. Only the top scoring 1% was included in the illustration below
+          </p>
         </div>
         <div class="col-md-3">
           <h4>Some Links</h4>
           <a href="https://www.cancer.org/cancer/acute-myeloid-leukemia/about/what-is-aml.html">What is AML?</a>
           <a href="https://www.cancer.org/cancer/acute-lymphocytic-leukemia/about/what-is-all.html">What is ALL?</a>
+          <a href="https://en.wikipedia.org/wiki/Analysis_of_variance">What is an ANOVA test?</a>
           <h4>Original Data Download</h4>
           <a href="Original_data" download="Original_data/actual.csv">actual.csv</a>
           <a href="Original_data" download="Original_data/data_set_ALL_AML_independent.csv">data_set_ALL_AML_independent.csv</a>
           <a href="Original_data" download="Original_data/data_set_ALL_AML_train.csv">data_set_ALL_AML_train.csv</a>
           <a href="README.txt" download="README.txt">README.txt</a>
+          <a href="http://science.sciencemag.org/content/286/5439/531/tab-pdf">Original paper</a>
         </div>
       </div>
       <hr>
@@ -80,20 +88,24 @@
         </div>
         <div class="col-md-9">
           <h4>What is DNA Microarray Expression?</h4>
-          <p>DNA Microarray expression</p>
+          <p>
+            DNA Microarray Expression is a measurement of how often is a gene (or a segment of DNA) expressed by a cell. In other words, how often are the instructions in that gene used to make a an enzyme or protein.</p>
+          <p>
+            This method is used often in order to find irregularities in cells with abnormal characteristics or behavior. As you can see below some of these genes are highly expressed in patients with one subtype of Leukemia, while they aren't in patients suffer the other, the opposite is also true. 
+          </p>
         </div>
       </div>
       <hr>
       <div class="row">
-        <div class="col-md-9">
-          <h4>Highlights on the Original paper</h4>
-        </div>
-        <div class="col-md-3">
-          <h4>Some Links</h4>
-          <a href="http://science.sciencemag.org/content/286/5439/531/tab-pdf">Original paper</a>
+        <div class="col-md-12">
+          <h1 style="margin-bottom: 1em">Data Visualization</h1>
+          <div class="row">
+            <p class="col-md-6" style="margin-top: 100px; text-align: center;margin: auto;">
+            In the illustration below one may note the arrangement of genes' codenames, ranging from lowest statistically significant (left) to highest (right). You can click on each codename to get a description of it on the right.
+          </p>
+          </div>
         </div>
       </div>
-      <hr>
       <div class="row" id="chart"></div>
       </div>
     </div>
