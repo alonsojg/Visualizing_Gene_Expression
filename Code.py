@@ -11,9 +11,9 @@ import pandas as pd
 import pprint as pp
 import pickle as pkl
 
-labels = 'Original_data/actual.csv'
-test_path = 'Original_data/data_set_ALL_AML_independent.csv'
-train_path = 'Original_data/data_set_ALL_AML_train.csv'
+labels = 'data/actual.csv'
+test_path = 'data/data_set_ALL_AML_independent.csv'
+train_path = 'data/data_set_ALL_AML_train.csv'
 
 labels_df = pd.read_csv(labels, index_col = 'patient')
 test_df = pd.read_csv(test_path)
@@ -143,7 +143,7 @@ ifeatures = features_pca(train_df)
 train_df = train_df.loc[:,ifeatures]
 train_df.sort_values(by='cancer', ascending = False, inplace=True)
 train_df [train_df.columns.tolist()] = preprocessing.scale(train_df.values)
-train_df.to_csv('scaled.csv')
+train_df.to_csv('data/scaled.csv')
 
 f = open('gene_description.txt','w')
 print >> f,'These are listed from least statitically significant to most of the first percentile \n'

@@ -4,7 +4,7 @@ import pprint as pp
 
 l = []
 
-with open('scaled.csv','rb') as f:
+with open('data/scaled.csv','rb') as f:
 	a = csv.reader(f)
 	for row in a:
 		l.append(row)

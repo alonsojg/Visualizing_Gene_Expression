@@ -3,8 +3,8 @@
   <head>
     <meta charset='utf-8'>
     <script type="text/javascript" src='http://d3js.org/d3.v3.min.js'></script>
-    <script type="text/javascript" src='data.js'></script>
-    <script type="text/javascript" src="gene_description.js"></script>
+    <script type="text/javascript" src='js/data.js'></script>
+    <script type="text/javascript" src="js/gene_description.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <title>Using DNA Microarray Expression Data in Leukemia Subtype Grouping</title>
     <style>
@@ -21,8 +21,8 @@
 
       h1 {
         display: block;
-        margin-top: 2em;
         text-align: center;
+        color: black;
         }
 
       h4 {
@@ -30,12 +30,18 @@
         margin-top: 1em;
         text-align: center;
         margin-bottom: 1em;
+        color: black;
         }
+
+      hr {
+        border-color: black;
+      }
 
       p {
         display: block;
         margin-top: 1em;
         text-align: left;
+        color: black;
         }
 
       a {
@@ -49,33 +55,33 @@
   <body>
     <div class="container">
       <div class="row" style="display: flex;">
-        <div class="col-md-12">
-          <h1>Using DNA Microarray Expression Data in Leukemia Subtype Grouping</h1>
+        <div class="col-md-12" style="background-color: #655858;">
+          <h1 style="color: white; margin-top: 2em;">Using DNA Microarray Expression Data in Leukemia Subtype Grouping</h1>
           <div class="col-md-6" style="margin: auto;">
-            <p style="text-align: center;margin-top: 2em;color: gray;">Using genomic data in finding important genetic markers to distinguish between acute myleoid leukemia (AML) and acute lymphoblastic leukemia (ALL). </p> 
-           <hr>
+            <p style="text-align: center;margin-top: 2em;color: #CEC8C8;">Using genomic data in finding important genetic markers to distinguish between acute myleoid leukemia (AML) and acute lymphocytic leukemia (ALL). </p> 
+           <hr style="border-color: gray;">
           </div>
         </div>
       </div>
       <div class="row" style="display: flex;">
         <div class="col-md-9">
-          <h4>Some background</h4>
+          <h4>Background</h4>
           <p style="margin-top: 50px">
-            This is a project Intended to fulfill the final project, in Data Visualization, required by Udacity's Data Analysis nanodegree course. In this project I worked to better illustrate the differences among some of the most important genes taken into consideration to better contrast two similar subtypes of Leukemia: Acute Myleoid Leukemia (AML) and Acute Lymphoblastic Leukemia (ALL); The genetic samples were sequenced and extracted from 72 patients. Originally, each patiens' samples included a series of 7129 genes to be researched. 
+            This is a project Intended to fulfill the final project, in Data Visualization, required by Udacity's Data Analysis nanodegree course. In this project I worked to better illustrate the differences among some of the most important genes taken into consideration to better contrast two similar subtypes of Leukemia: Acute Myleoid Leukemia (AML) and Acute Lymphocytic Leukemia (ALL); In the original study, this dataset was used to classify which type of cancer each patient had based on measurements of their gene expressions. The study was published in 1999 and was the first to show that cancer types can be determined based on gene expressions alone.The genetic samples were sequenced and extracted from 72 patients. Originally, each patiens' samples included a series of 7129 genes to be researched. 
           </p>
           <p>
             These were all submitted to an anova test to account for each gene's variation in differentiating these two Leukemia Subtypes. Only the top scoring 1% was included in the illustration below
           </p>
         </div>
         <div class="col-md-3">
-          <h4>Some Links</h4>
+          <h4>Links</h4>
           <a href="https://www.cancer.org/cancer/acute-myeloid-leukemia/about/what-is-aml.html">What is AML?</a>
           <a href="https://www.cancer.org/cancer/acute-lymphocytic-leukemia/about/what-is-all.html">What is ALL?</a>
           <a href="https://en.wikipedia.org/wiki/Analysis_of_variance">What is an ANOVA test?</a>
           <h4>Original Data Download</h4>
-          <a href="Original_data" download="Original_data/actual.csv">actual.csv</a>
-          <a href="Original_data" download="Original_data/data_set_ALL_AML_independent.csv">data_set_ALL_AML_independent.csv</a>
-          <a href="Original_data" download="Original_data/data_set_ALL_AML_train.csv">data_set_ALL_AML_train.csv</a>
+          <a href="data" download="data/actual.csv">actual.csv</a>
+          <a href="data" download="data/data_set_ALL_AML_independent.csv">data_set_ALL_AML_independent.csv</a>
+          <a href="data" download="data/data_set_ALL_AML_train.csv">data_set_ALL_AML_train.csv</a>
           <a href="README.txt" download="README.txt">README.txt</a>
           <a href="http://science.sciencemag.org/content/286/5439/531/tab-pdf">Original paper</a>
         </div>
@@ -83,32 +89,33 @@
       <hr>
       <div class="row">
         <div class="col-md-3">
-          <h4>Some Links</h4>
+          <h4>Links</h4>
           <a href="https://en.wikipedia.org/wiki/DNA_microarray">What is a DNA Microarray?</a>
         </div>
         <div class="col-md-9">
           <h4>What is DNA Microarray Expression?</h4>
           <p>
-            DNA Microarray Expression is a measurement of how often is a gene (or a segment of DNA) expressed by a cell. In other words, how often are the instructions in that gene used to make a an enzyme or protein.</p>
+            DNA Microarray Expression is a measurement of how often a gene (or a segment of DNA) is expressed by a cell. In other words, how often are the instructions in that gene used to make a an enzyme or protein.</p>
           <p>
-            This method is used often in order to find irregularities in cells with abnormal characteristics or behavior. As you can see below some of these genes are highly expressed in patients with one subtype of Leukemia, while they aren't in patients suffer the other, the opposite is also true. 
+            This method is often used in order to find irregularities in cells with abnormal characteristics or behavior. As you can see below, some of these genes are highly expressed in patients with one subtype of Leukemia, while they aren't expressed in patients who suffer the other; the opposite is also true. 
           </p>
         </div>
       </div>
       <hr>
       <div class="row">
-        <div class="col-md-12">
-          <h1 style="margin-bottom: 1em">Data Visualization</h1>
+        <div class="col-md-12" style="background-color: #655858;">
+          <h1 style="color: white; margin-top: 1em;">Data Visualization</h1>
           <div class="row">
-            <p class="col-md-6" style="margin-top: 100px; text-align: center;margin: auto;">
-            In the illustration below one may note the arrangement of genes' codenames, ranging from lowest statistically significant (left) to highest (right). You can click on each codename to get a description of it on the right.
-          </p>
+            <div class="col-md-6" style="margin: auto;">
+              <p style="text-align: center;margin-top: 2em;color: #CEC8C8;">In the illustration below one may note the arrangement of genes' codenames, ranging from lowest statistically significant (left) to highest (right). You can click on each codename to get a description of it on the right.</p> 
+              <hr style="border-color: gray;">
+            </div>
           </div>
         </div>
       </div>
       <div class="row" id="chart"></div>
       </div>
     </div>
-    <script type='text/javascript' src="app.js"></script>
+    <script type='text/javascript' src="js/app.js"></script>
   </body>
 </html>
