@@ -9,7 +9,7 @@ with open('data/scaled.csv','rb') as f:
 	for row in a:
 		l.append(row)
 
-cols = l[0][1:]
+cols = range(1,len(l[0]))
 cols[-1] = 'Leukemia Subtype'
 
 print cols
@@ -36,7 +36,7 @@ for i in enumerate(l):
 		l2.append([ii[1], i[0],ii[0]])
 	l3.append(l2)
 
-f = open('data.js','w')
+f = open('js/data.js','w')
 print >> f, 'var maxData = '+str(maxData)+';'
 print >> f, 'var minData = '+str(minData)+';'
 print >> f, 'var cols = '+str(cols)+';'

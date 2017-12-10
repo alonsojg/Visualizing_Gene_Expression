@@ -147,12 +147,21 @@ train_df.to_csv('data/scaled.csv')
 
 f = open('gene_description.txt','w')
 print >> f,'These are listed from least statitically significant to most of the first percentile \n'
+# print "d2\n",d2
+# print "ifeatures\n",ifeatures
+b=0
 for i in ifeatures[:-1]:
-	print >> f, str(i)+' : '+str(d2[i])+'\n'
+	b+=1
+	print >> f, "Number: "+str(b)+' | '+"Name & Description: "+str(i)+', '+str(d2[i])+'\n'
 f.close()
 
-f = open('gene_description.js','w')
-print >> f, 'var gnsAndDescripts = '+str(d2)
+d3={}
+
+for i in d2:	
+	d3[ifeatures.index(i)+1] = d2[i]
+
+f = open('js/gene_description.js','w')
+print >> f, 'var gnsAndDescripts = '+str(d3)
 f.close()
 
 

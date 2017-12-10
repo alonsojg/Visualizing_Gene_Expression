@@ -51,9 +51,49 @@ Content:
 
 		Here all html and css formatting is stored.
 
+Feedback:
+	
+	
+	Daniel Fariñas, 3rd year Med-Student.
+
+	contact email: danielfarinas@yahoo.com
+
+	"It does an impressive job at ressembling actual DNA/RNA microarray tests. I like how the expression range is depicted not just with colors but shades. Lack of shading is a common issue that prevents professionals with color blindness from getting all the information displayed on their own. I do suggest you rearrange the rows. Set one leukemia set of patients above the other to better contrast the differences in gene expression."
+
+	In response to his suggestion I rearranged all rows; Acute Myeloid Cancer patients were set atop, and Acute Lymphoblastic Leukemia patients below.
 
 
-Acknowledgements:
+	Idelfonso Gutierrez, iOS Devloper:
+
+	"I like the looks of it; the colors are simple but intriguing. I don't know much about this topic, but I'm glad you put those links there for reference. However, I noticed that you had some trouble rendereing the graph on Chrome browser. I've run into this problem before so i suggest you use this link to load d3.js: cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"
+
+	This was very helpful since I do not have as much experience with browser scripting languages. I then replaced the loading source and was succesful and patching this bug.
+
+
+	@anandaribeiro wrote:
+
+		Hello @Knight.B,
+
+		I found your project very interesting!
+		I am still in the beginning of the Data Visualization course, but these are my comments on your visualization:
+		I think the colors are very good.
+		The font size of the labels are very small, especially the genes codenames. They are hard to read.
+		I think the visualization doesn’t speak for itself. Initially I didn’t understand what the significance and expression level refer to. After reading the information you wrote in the texts I could understand it clearly. However, I am not familiarized with this topic. Maybe other people could understand it more easily.
+
+		Good job!
+
+	https://discussions.udacity.com/t/asking-for-feedback-on-project-6/381811/2
+
+	"The font size of the labels are very small, especially the genes codenames."
+
+	Initially I was going to increase the font size of labels to make them easier to read. However, after much though I realized that it would just be simpler to change the gene codenames to numbers since mos people would not understand such a specific nomenclature.	
+
+	"I think the visualization doesn’t speak for itself. Initially I didn’t understand what the significance and expression level refer to. After reading the information you wrote in the texts I could understand it clearly."
+
+	It's not very simple to understand the concept of gene expression, that's why I encourage readers to learn more in the links I provided for a summary.
+
+
+Resources/Acknowledgements:
 
 	Molecular Classification of Cancer: Class Discovery and Class Prediction by Gene Expression Science 286:531-537. (1999). Published: 1999.10.14 T.R. Golub, D.K. Slonim, P. Tamayo, C. Huard, M. Gaasenbeek, J.P. Mesirov, H. Coller, M. Loh, J.R. Downing, M.A. Caligiuri, C.D. Bloomfield, and E.S. Lander
 

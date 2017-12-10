@@ -1,90 +1,94 @@
 These are listed from least statitically significant to most of the first percentile 
 
-J05243_at : SPTAN1 Spectrin; alpha; non-erythrocytic 1 (alpha-fodrin)
+Number: 1 | Name & Description: M93056_at, LEUKOCYTE ELASTASE INHIBITOR
 
-U05259_rna1_at : MB-1 gene
+Number: 2 | Name & Description: D14664_at, KIAA0022 gene
 
-HG1612-HT1612_at : Macmarcks
+Number: 3 | Name & Description: J05243_at, SPTAN1 Spectrin; alpha; non-erythrocytic 1 (alpha-fodrin)
 
-X15414_at : ALDR1 Aldehyde reductase 1 (low Km aldose reductase)
+Number: 4 | Name & Description: HG1612-HT1612_at, Macmarcks
 
-D88422_at : CYSTATIN A
+Number: 5 | Name & Description: M83652_s_at, PFC Properdin P factor; complement
 
-Y07604_at : Nucleoside-diphosphate kinase
+Number: 6 | Name & Description: D88422_at, CYSTATIN A
 
-Y00787_s_at : INTERLEUKIN-8 PRECURSOR
+Number: 7 | Name & Description: M84371_rna1_s_at, CD19 gene
 
-M31211_s_at : MYL1 Myosin light chain (alkali)
+Number: 8 | Name & Description: Y07604_at, Nucleoside-diphosphate kinase
 
-M92287_at : CCND3 Cyclin D3
+Number: 9 | Name & Description: D10495_at, PRKCD Protein kinase C; delta
 
-M31523_at : TCF3 Transcription factor 3 (E2A immunoglobulin enhancer binding factors E12/E47)
+Number: 10 | Name & Description: L09717_at, LAMP2 Lysosome-associated membrane protein 2 {alternative products}
 
-D14664_at : KIAA0022 gene
+Number: 11 | Name & Description: X62320_at, GRN Granulin
 
-X59417_at : PROTEASOME IOTA CHAIN
+Number: 12 | Name & Description: L42379_at, Quiescin (Q6) mRNA; partial cds
 
-M19507_at : MPO Myeloperoxidase
+Number: 13 | Name & Description: U82759_at, GB DEF = Homeodomain protein HoxA9 mRNA
 
-M93056_at : LEUKOCYTE ELASTASE INHIBITOR
+Number: 14 | Name & Description: Y00787_s_at, INTERLEUKIN-8 PRECURSOR
 
-U82759_at : GB DEF = Homeodomain protein HoxA9 mRNA
+Number: 15 | Name & Description: M31523_at, TCF3 Transcription factor 3 (E2A immunoglobulin enhancer binding factors E12/E47)
 
-L09717_at : LAMP2 Lysosome-associated membrane protein 2 {alternative products}
+Number: 16 | Name & Description: U05259_rna1_at, MB-1 gene
 
-X62654_rna1_at : ME491  gene extracted from H.sapiens gene for Me491/CD63 antigen
+Number: 17 | Name & Description: M96326_rna1_at, Azurocidin gene
 
-J03801_f_at : LYZ Lysozyme
+Number: 18 | Name & Description: X62654_rna1_at, ME491  gene extracted from H.sapiens gene for Me491/CD63 antigen
 
-M19045_f_at : LYZ Lysozyme
+Number: 19 | Name & Description: M92287_at, CCND3 Cyclin D3
 
-L42379_at : Quiescin (Q6) mRNA; partial cds
+Number: 20 | Name & Description: M81695_s_at, ITGAX Integrin; alpha X (antigen CD11C (p150); alpha polypeptide)
 
-X64072_s_at : SELL Leukocyte adhesion protein beta subunit
+Number: 21 | Name & Description: X64072_s_at, SELL Leukocyte adhesion protein beta subunit
 
-M96326_rna1_at : Azurocidin gene
+Number: 22 | Name & Description: J03801_f_at, LYZ Lysozyme
 
-X14008_rna1_f_at : Lysozyme gene (EC 3.2.1.17)
+Number: 23 | Name & Description: M19045_f_at, LYZ Lysozyme
 
-M11147_at : FTL Ferritin; light polypeptide
+Number: 24 | Name & Description: D49950_at, Liver mRNA for interferon-gamma inducing factor(IGIF)
 
-M81695_s_at : ITGAX Integrin; alpha X (antigen CD11C (p150); alpha polypeptide)
+Number: 25 | Name & Description: X59417_at, PROTEASOME IOTA CHAIN
 
-M83652_s_at : PFC Properdin P factor; complement
+Number: 26 | Name & Description: X52056_at, SPI1 Spleen focus forming virus (SFFV) proviral integration oncogene spi1
 
-D49950_at : Liver mRNA for interferon-gamma inducing factor(IGIF)
+Number: 27 | Name & Description: M19507_at, MPO Myeloperoxidase
 
-X61587_at : ARHG Ras homolog gene family; member G (rho G)
+Number: 28 | Name & Description: X14008_rna1_f_at, Lysozyme gene (EC 3.2.1.17)
 
-U50136_rna1_at : Leukotriene C4 synthase (LTC4S) gene
+Number: 29 | Name & Description: M31211_s_at, MYL1 Myosin light chain (alkali)
 
-X52056_at : SPI1 Spleen focus forming virus (SFFV) proviral integration oncogene spi1
+Number: 30 | Name & Description: X61587_at, ARHG Ras homolog gene family; member G (rho G)
 
-M32304_s_at : TIMP2 Tissue inhibitor of metalloproteinase 2
+Number: 31 | Name & Description: M62762_at, ATP6C Vacuolar H+ ATPase proton channel subunit
 
-X16546_at : RNS2 Ribonuclease 2 (eosinophil-derived neurotoxin; EDN)
+Number: 32 | Name & Description: M55150_at, FAH Fumarylacetoacetate
 
-M27891_at : CST3 Cystatin C (amyloid angiopathy and cerebral hemorrhage)
+Number: 33 | Name & Description: M32304_s_at, TIMP2 Tissue inhibitor of metalloproteinase 2
 
-M62762_at : ATP6C Vacuolar H+ ATPase proton channel subunit
+Number: 34 | Name & Description: U50136_rna1_at, Leukotriene C4 synthase (LTC4S) gene
 
-U46499_at : GLUTATHIONE S-TRANSFERASE; MICROSOMAL
+Number: 35 | Name & Description: M63138_at, CTSD Cathepsin D (lysosomal aspartyl protease)
 
-M22960_at : PPGB Protective protein for beta-galactosidase (galactosialidosis)
+Number: 36 | Name & Description: X16546_at, RNS2 Ribonuclease 2 (eosinophil-derived neurotoxin; EDN)
 
-M63138_at : CTSD Cathepsin D (lysosomal aspartyl protease)
+Number: 37 | Name & Description: M11147_at, FTL Ferritin; light polypeptide
 
-M84526_at : DF D component of complement (adipsin)
+Number: 38 | Name & Description: M27891_at, CST3 Cystatin C (amyloid angiopathy and cerebral hemorrhage)
 
-M16038_at : LYN V-yes-1 Yamaguchi sarcoma viral related oncogene homolog
+Number: 39 | Name & Description: X17042_at, PRG1 Proteoglycan 1; secretory granule
 
-L09209_s_at : APLP2 Amyloid beta (A4) precursor-like protein 2
+Number: 40 | Name & Description: M22960_at, PPGB Protective protein for beta-galactosidase (galactosialidosis)
 
-M55150_at : FAH Fumarylacetoacetate
+Number: 41 | Name & Description: M16038_at, LYN V-yes-1 Yamaguchi sarcoma viral related oncogene homolog
 
-M23197_at : CD33 CD33 antigen (differentiation antigen)
+Number: 42 | Name & Description: L09209_s_at, APLP2 Amyloid beta (A4) precursor-like protein 2
 
-X17042_at : PRG1 Proteoglycan 1; secretory granule
+Number: 43 | Name & Description: M84526_at, DF D component of complement (adipsin)
 
-X95735_at : Zyxin
+Number: 44 | Name & Description: U46499_at, GLUTATHIONE S-TRANSFERASE; MICROSOMAL
+
+Number: 45 | Name & Description: M23197_at, CD33 CD33 antigen (differentiation antigen)
+
+Number: 46 | Name & Description: X95735_at, Zyxin
 
