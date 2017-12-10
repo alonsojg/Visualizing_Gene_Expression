@@ -1,15 +1,6 @@
-//height of each row in the heatmap
+//height and width of each rect in the heatmap
 var height = 7;
-
-//width of each column in the heatmap
 var width = 7;
-
-//margins
-var marginLeft = 0
-var marginTop = 0
-
-//legendA
-var colors = ['#ffcc66','#ff6666','#000000']
 
 //attach a SVG element to the document's body
 var mySVG = d3.select('#chart')
@@ -26,6 +17,9 @@ var myDiv = d3.select('#chart')
    .attr('id', 'text-box')
    .style('display','block')
    .style('margin-top', '3em')
+
+//legendA color spectrum
+var colors = ['#ffcc66','#ff6666','#000000']
 
 //define a color scale using the min and max expression values
 var colorScale = d3.scale.linear()
@@ -89,24 +83,13 @@ var rowLabel = mySVG.selectAll('.rowLabel')
       return d;
    });
 
-//expression value label
-var expLab = d3.select('#v')
-   .append('div')
-   .attr('class','col-md-6')
-   .style('height',25)
-   .style('opacity',0.8)
-   .style('top',10)
-   .style('padding',10)
-   .style('left',140)
-   .style('display','none');
-
 //position scale for legends
 var positionScale = d3.scale.linear()
    .domain([minData,maxData])
    .range([100,385])
 
 //expression level legend 
-var legendA = mySVG.selectAll('.legendA')
+mySVG.selectAll('.legendA')
    .data(legendCols)
    .enter()
    .append('g')
@@ -125,32 +108,32 @@ var legendA = mySVG.selectAll('.legendA')
    })
    .attr('y', (height*72 + 230));
 
-var patientText = mySVG.append('svg:text')
+mySVG.append('svg:text')
    .attr('transform', 'rotate(-90)')
    .attr('x',-(height * rows.length + 500)/2)
    .attr('y',75)
    .attr('font-size',width*2)
    .text('Patients\' numbers')
 
-var lowGLSSLegendText = mySVG.append('svg:text')
+mySVG.append('svg:text')
    .attr('x',positionScale(minData))
    .attr('y',100)
    .text('Lowest Statistical Significance')
    .attr('font-size',10)
 
-var highGLSSLegendText = mySVG.append('svg:text')
+mySVG.append('svg:text')
    .attr('x',positionScale(maxData) - 105)
    .attr('y',100)
    .text('Highest Statistical Significance')
    .attr('font-size',10)
 
-var lowEVLegendText = mySVG.append('svg:text')
+mySVG.append('svg:text')
    .attr('x',positionScale(minData))
    .attr('y',(height*72 + 225))
    .text('Lowest Expression Level')
    .attr('font-size',10)
 
-var highEVLegendText = mySVG.append('svg:text')
+mySVG.append('svg:text')
    .attr('x',positionScale(maxData)-85)
    .attr('y',(height*72 + 225))
    .text('Highest Expression Level')
@@ -158,7 +141,7 @@ var highEVLegendText = mySVG.append('svg:text')
 
 var cTypeArray = [[0,minData,'ALL'],[1,maxData,'AML']]
 
-var legendB = mySVG.selectAll('.legendB')
+mySVG.selectAll('.legendB')
    .data(cTypeArray)
    .enter()
    .append('g')
@@ -174,19 +157,19 @@ var legendB = mySVG.selectAll('.legendB')
       return colorScale(d[1])
    });
 
-var legendAMLLabel = mySVG.append('svg:text')
+mySVG.append('svg:text')
    .attr('x', positionScale(maxData) + 75 - (width/2))
    .attr('y', 255+(height/2))
    .text('ALL')
    .attr('font-size',10)
 
-var legendALLLabel = mySVG.append('svg:text')
+mySVG.append('svg:text')
    .attr('x', positionScale(maxData) + 75 - (width/2))
    .attr('y', 280+(height/2))
    .text('AML')
    .attr('font-size',10)
 
-var legendBTitle = mySVG.append('svg:text')
+mySVG.append('svg:text')
    .attr('x', positionScale(maxData) + 50)
    .attr('y', 225)
    .style('font-size',15)
