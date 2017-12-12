@@ -114,6 +114,13 @@ mySVG.append('svg:text')
    .attr('y',75)
    .attr('font-size',width*2)
    .text('Patients\' numbers')
+   .attr('font-size',20)
+
+mySVG.append('svg:text')
+   .attr('x',positionScale(-minData+maxData)/2)
+   .attr('y',175)
+   .text('Genes')
+   .attr('font-size',20)
 
 mySVG.append('svg:text')
    .attr('x',positionScale(minData))
