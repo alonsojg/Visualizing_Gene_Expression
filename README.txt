@@ -1,4 +1,6 @@
 
+<li>https://alonsojg.github.io/Visualizing_Gene_Expression/</li>
+
 Intro:
 
 	This is a work in progress. Here I use a dataset created out of a proof of concept study published in 1999 by Golub et al. The idea behind this work was to demonstrate the possibilities of new cancer diagnostic techniques by gene expression monitoring, via DNA microarray, and therefore posed an interesting challenge in both the fields new cancer subtype discoveries and/or cancer subtype classification. This was used to classify patients into two subcategories of leukemia: Acute myeloid leukemia (AML) and acute lymphoblastic leukemia (ALL). Although this dataset was originally intended for the development of machine learning classifiers, I will be using them here first for data vizualization, and will later on engage in the development and illustraion of a classifier at work.
@@ -7,7 +9,7 @@ Design:
 
 	The idea is to best illustrate how gene expression vary accross patients. The idea of a heatmap is very resemblent of a physical DNA microarray test. In a microarray surface there are openings, neatly arranged like a cartesian graph. After a microarray surface undergoes the initial steps in DNA microarray, a photosensor and laser is used in order to capture the luminescense of certain luminescent RNA particles attached to it. Some crevices will glow strongly, some will not, and others wil have a mild glow. Some times even different colors of lminescence are employed. The end result if a cartesian graph with crevices varying in glow.
 
-	The gene codenames are meant to be clicked to display a name and/or a definition of each gene's role in each Leukemia subtype.  
+	The gene codenames are meant to be clicked to display a name and/or a definition of each gene's role in each Leukemia subtype.
 
 Summary:
 
