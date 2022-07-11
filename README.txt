@@ -1,5 +1,5 @@
 
-<li>https://alonsojg.github.io/Visualizing_Gene_Expression/</li>
+https://alonsojg.github.io/Visualizing_Gene_Expression/
 
 Intro:
 
